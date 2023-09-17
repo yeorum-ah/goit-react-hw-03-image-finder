@@ -1,6 +1,6 @@
 import { Header,  Button, StyledForm, StyledField } from "./SearchBar.styled";
 import { Formik} from 'formik';
-import { ReactComponent as Icon } from "./search-icon.svg";
+
 
 
 export const Searchbar = ( {onSearch}) => {
@@ -15,7 +15,6 @@ export const Searchbar = ( {onSearch}) => {
     }>
     <StyledForm >
     <Button type="submit" className="button" >
-        <svg href="./search-icon.svg"></svg>
     </Button>
 
     <StyledField
